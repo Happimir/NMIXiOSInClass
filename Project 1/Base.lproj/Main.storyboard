@@ -17,12 +17,18 @@
                     <view key="view" contentMode="scaleToFill" id="KpV-uV-aRa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beach" translatesAutoresizingMaskIntoConstraints="NO" id="rbR-5o-x8X">
+                                <frame key="frameInset" width="375" height="618"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Blue" id="2dv-Ah-UyG"/>
+                    <tabBarItem key="tabBarItem" title="Blue" image="playa" id="2dv-Ah-UyG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mQF-5l-SDm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="727" y="255"/>
+            <point key="canvasLocation" x="725.60000000000002" y="254.12293853073464"/>
         </scene>
         <!--Big Boy-->
         <scene sceneID="tne-QT-ifu">
@@ -37,12 +43,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bigboy" translatesAutoresizingMaskIntoConstraints="NO" id="oqa-AR-uSW">
-                                <frame key="frameInset" minX="67" minY="40" width="240" height="240"/>
+                                <frame key="frameInset" width="375" height="618"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Big Boy" image="playa" id="4bS-3V-3Xk"/>
+                    <tabBarItem key="tabBarItem" title="Big Boy" image="bb" id="4bS-3V-3Xk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,6 +92,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bb" width="25" height="25"/>
+        <image name="beach" width="800" height="800"/>
         <image name="bigboy" width="798" height="795"/>
         <image name="playa" width="25" height="25"/>
     </resources>
